@@ -10,6 +10,9 @@ let object ={
 for(let i in object){
     console.log(object[i])    
 }
+output=>suhas
+        24
+        banagalore
 
 
  (b).  foreach loop
@@ -24,6 +27,9 @@ Object.keys(object).forEach(function(key) {
     console.log(key, object[key]);
   
 });
+output=>suhas
+        24
+        banagalore
 
 
  (c).  for of loop
@@ -36,6 +42,9 @@ let object ={
 for(let k of Object.keys(object)){
     console.log(object[k])
 }
+output=>suhas
+        24
+        banagalore
 
 
 2). Create your own resume data in JSON format
