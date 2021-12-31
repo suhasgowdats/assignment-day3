@@ -10,6 +10,7 @@ let object ={
 for(let i in object){
     console.log(object[i])    
 }
+
 output=>suhas
         24
         banagalore
@@ -24,9 +25,10 @@ let object ={
 }
 Object.keys(object).forEach(function(key) {
 
-    console.log(key, object[key]);
+    console.log(object[key]);
   
 });
+
 output=>suhas
         24
         banagalore
@@ -42,6 +44,7 @@ let object ={
 for(let k of Object.keys(object)){
     console.log(object[k])
 }
+
 output=>suhas
         24
         banagalore
@@ -50,7 +53,7 @@ output=>suhas
 2). Create your own resume data in JSON format
 
 let resumedata={
-    "name":"suhas",
+   {"name":"suhas",
     "age":24,
     "gender":"male",
     "qualification":"Mechanical Engineering",
@@ -59,9 +62,17 @@ let resumedata={
     "educations institute":{
         "school":"Tagore English School",
         "college":"Ghousia College Of Engineering"
-    }
+    }},
+   {"name":"saket",
+    "age":23,
+    "gender":"male",
+    "qualification":"Accountant",
+    "work experience":"2 years",
+    "city":"Mumbai",
+    "educations institute":{
+        "school":"Cambridge school",
+        "college":"MH college og commerce"
+    }},
 }
-
-
 
 
